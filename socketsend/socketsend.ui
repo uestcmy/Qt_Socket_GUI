@@ -6,14 +6,14 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>370</width>
-    <height>235</height>
+    <width>383</width>
+    <height>453</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>socketsend</string>
   </property>
-  <widget class="QWidget" name="">
+  <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
      <x>10</x>
@@ -26,23 +26,9 @@
     <item>
      <layout class="QVBoxLayout" name="verticalLayout">
       <item>
-       <widget class="QPushButton" name="SendButton0">
-        <property name="text">
-         <string>Send &quot;0&quot;</string>
-        </property>
-       </widget>
-      </item>
-      <item>
        <widget class="QLabel" name="label">
         <property name="text">
          <string>SendButton</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QPushButton" name="SendButton1">
-        <property name="text">
-         <string>Send &quot;1&quot;</string>
         </property>
        </widget>
       </item>
@@ -63,6 +49,214 @@
      </layout>
     </item>
    </layout>
+  </widget>
+  <widget class="QPushButton" name="SendButton1">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>400</y>
+     <width>85</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Send &quot;1&quot;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="SendButton0">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>400</y>
+     <width>85</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Send &quot;0&quot;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="SendButton2">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>370</y>
+     <width>85</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Send &quot;2&quot;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="SendButton3">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>370</y>
+     <width>85</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string> Send &quot;3&quot; </string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="SendButton5">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>400</y>
+     <width>85</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Send &quot;5&quot;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="SendButton6">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>370</y>
+     <width>85</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Send &quot;6&quot;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="SendButton7">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>370</y>
+     <width>85</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Send &quot;7&quot;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="SendButton8">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>310</y>
+     <width>85</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Send &quot;8&quot;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="SendButton4">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>400</y>
+     <width>85</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Send &quot;4&quot;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="SendButton9">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>310</y>
+     <width>85</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Send &quot;9&quot;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="SendButton10">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>280</y>
+     <width>85</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Send &quot;10&quot;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="SendButton11">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>280</y>
+     <width>85</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Send &quot;11&quot;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="SendButton14">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>280</y>
+     <width>85</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Send &quot;14&quot;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="SendButton13">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>310</y>
+     <width>85</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Send &quot;13&quot;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="SendButton12">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>310</y>
+     <width>85</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Send &quot;12&quot;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="SendButton15">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>280</y>
+     <width>85</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Send &quot;15&quot;</string>
+   </property>
   </widget>
  </widget>
  <layoutdefault spacing="6" margin="11"/>

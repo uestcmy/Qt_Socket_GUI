@@ -7,6 +7,16 @@
 #include <QtGui/QApplication>
 #include "socketser.h"
 
+#define LINUX
+
+#ifdef LINUX
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <netdb.h>
+#include <unistd.h>
+#include <sys/types.h>
+#endif
+
 char buff[100];
 socklen_t size;
 int num;

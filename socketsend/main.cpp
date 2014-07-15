@@ -1,4 +1,4 @@
-#define WIN
+#define LINUX
 
 #ifdef LINUX
 #include <sys/socket.h>

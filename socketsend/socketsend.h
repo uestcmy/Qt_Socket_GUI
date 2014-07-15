@@ -1,4 +1,4 @@
-#define WIN
+#define LINUX
 
 #ifdef LINUX
 #include <sys/socket.h>
@@ -66,9 +66,24 @@ public:
     
 private slots:
     void on_SendButton0_clicked();
-
     void on_SendButton1_clicked();
+    void on_SendButton2_clicked();
+    void on_SendButton3_clicked();
 
+    void on_SendButton4_clicked();
+    void on_SendButton5_clicked();
+    void on_SendButton6_clicked();
+    void on_SendButton7_clicked();
+
+    void on_SendButton8_clicked();
+    void on_SendButton9_clicked();
+    void on_SendButton10_clicked();
+    void on_SendButton11_clicked();
+
+    void on_SendButton12_clicked();
+    void on_SendButton13_clicked();
+    void on_SendButton14_clicked();
+    void on_SendButton15_clicked();
 private:
     Ui::socketsend *ui;
 };
